@@ -1,0 +1,223 @@
+{
+    "version": "6",
+    "caption": "",
+    
+    "scraps": [
+        {
+            "id": "0",
+            "type": "image",
+            "size": {
+                "width": 1024,
+                "height": 768
+                
+            },
+            "value": "http://",
+            "zIndex": 0
+        },
+        {
+            "id": "1",
+            "type": "text",
+            "value": "Test Animation",
+            "size": "{ \"width\": 600,\"height\": 50}",
+            "font": {
+                "familyName": "",
+                "weight": 200,
+                "size": 14
+            }
+        }
+    ],
+    
+    "animation": {
+        "layers":[
+            {
+                "target":"0",
+                "items":[
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":0.33300000000000002,
+                                "y":0
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"position.x",
+                        "fromValue":119.5,
+                        "beginTime":0,
+                        "toValue":629.5,
+                        "duration":1.0333333754218634
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":0.33300000000000002,
+                                "y":0
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"position.y",
+                        "fromValue":117.5,
+                        "beginTime":0,
+                        "toValue":333.5,
+                        "duration":1.0333333754218634
+                    }
+                ]
+            },
+            {
+                "target":"1",
+                "items":[
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":-0.019
+                            },
+                            "in":{
+                                "x":0.83299999999999996,
+                                "y":0.83299999999999996
+                            }
+                        },
+                        "property":"transform.rotation",
+                        "fromValue":0,
+                        "beginTime":0,
+                        "toValue":1.780235837034216,
+                        "duration":0.46666666666666667
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":0.88700000000000001,
+                                "y":0.02
+                            },
+                            "in":{
+                                "x":0.83299999999999996,
+                                "y":0.83299999999999996
+                            }
+                        },
+                        "property":"transform.rotation",
+                        "fromValue":1.780235837034216,
+                        "beginTime":0.46666666666666667,
+                        "toValue":0,
+                        "duration":0.56666670875519665
+                    }
+                ]
+            },
+            {
+                "target":"2",
+                "items":[
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":-0.016
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"transform.scale.x",
+                        "fromValue":0.55762,
+                        "beginTime":0,
+                        "toValue":0.13253000000000001,
+                        "duration":0.53333333333333333
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":-0.016
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"transform.scale.y",
+                        "fromValue":0.30170999999999998,
+                        "beginTime":0,
+                        "toValue":0.071709999999999996,
+                        "duration":0.53333333333333333
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":-0.016
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"transform.scale.z",
+                        "fromValue":1,
+                        "beginTime":0,
+                        "toValue":1,
+                        "duration":0.53333333333333333
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":0.01
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"transform.scale.x",
+                        "fromValue":0.13253000000000001,
+                        "beginTime":0.53333333333333333,
+                        "toValue":0.74245000000000005,
+                        "duration":0.50000004208852999
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":0.01
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"transform.scale.y",
+                        "fromValue":0.071709999999999996,
+                        "beginTime":0.53333333333333333,
+                        "toValue":0.40171000000000001,
+                        "duration":0.50000004208852999
+                    },
+                    {
+                        "timingFunction":{
+                            "out":{
+                                "x":1,
+                                "y":0.01
+                            },
+                            "in":{
+                                "x":0.66700000000000004,
+                                "y":1
+                            }
+                        },
+                        "property":"transform.scale.z",
+                        "fromValue":1,
+                        "beginTime":0.53333333333333333,
+                        "toValue":1,
+                        "duration":0.50000004208852999
+                    }
+                ]
+            }
+        ],
+        "info":{
+            "fps":30,
+            "duration":1
+        }
+    }
+}

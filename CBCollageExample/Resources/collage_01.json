@@ -1,0 +1,267 @@
+{
+    "version": "6",
+    "caption": "",
+    
+    "scraps": [
+        {
+            "id": "0",
+            "type": "image",
+            "size": {
+                "width": 1024,
+                "height": 768
+                
+            },
+            "value": "http://",
+            "zIndex": 0
+        },
+        {
+            "id": "1",
+            "type": "text",
+            "value": "Test Animation",
+            "size": "{ \"width\": 600,\"height\": 50}",
+            "font": {
+                "familyName": "",
+                "weight": 200,
+                "size": 14
+            }
+        }
+    ],
+    
+    "animation": {
+        "info": {
+            "fps": 12,
+            "duration": 10
+        },
+        "masks": [
+            {
+                "id": "m0",
+                "inverted": true,
+                "isClose": true,
+                "opacity": 0.5,
+                "vertices": [
+                    {
+                        "x": 0.25,
+                        "y": 0.25
+                    },
+                    {
+                        "x": 0.75,
+                        "y": 0.25,
+                    },
+                    {
+                        "x": 0.75,
+                        "y": 0.75
+                    },
+                    {
+                        "x": 0.25,
+                        "y": 0.75
+                    }
+
+                ]
+            },
+            {
+                "id": "m1",
+                "inverted": true,
+                "isClose": true,
+                "opacity": 1,
+                "vertices": [
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0.25,
+                        "y": 0,
+                    },
+                    {
+                        "x": 0.25,
+                        "y": 0.25
+                    },
+                    {
+                        "x": 0,
+                        "y": 0.25
+                    }
+                    
+                ]
+            }
+        ],
+        "layers": [
+            {
+                "target": "0",
+                "items": [
+                    {
+                        "property": "position.x",
+                        "fromValue": 119,
+                        "toValue": 629,
+                        "duration": 1,
+                        "beginTime": 0,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 0.333,
+                                "y": 0
+                            }
+                        }
+                    },
+                    {
+                        "property": "position.y",
+                        "fromValue": 117,
+                        "toValue": 333,
+                        "duration": 1,
+                        "beginTime": 0,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 0.333,
+                                "y": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "target": "1",
+                "items": [
+                    {
+                        "property": "transform.rotation",
+                        "fromValue": 0,
+                        "toValue": 1.78024,
+                        "duration": 0.5,
+                        "beginTime": 0,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "out": {
+                                "x": 1,
+                                "y": -0.019
+                            }
+                        }
+                    },
+                    {
+                        "property": "transform.rotation",
+                        "fromValue": 1.78024,
+                        "toValue": 0,
+                        "duration": 0.5,
+                        "beginTime": 0.5,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "out": {
+                                "x": 0.887,
+                                "y": 0.02
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "target": "2",
+                "items": [
+                    {
+                        "property": "transform.scale.x",
+                        "fromValue": 0.55,
+                        "toValue": 0.13,
+                        "duration": 0.5,
+                        "beginTime": 0,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 1,
+                                "y": -0.016
+                            }
+                        }
+                    },
+                    {
+                        "property": "transform.scale.y",
+                        "fromValue": 0.3,
+                        "toValue": 0.07,
+                        "duration": 0.5,
+                        "beginTime": 0,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 1,
+                                "y": -0.016
+                            }
+                        }
+                    },
+                    {
+                        "property": "transform.scale.x",
+                        "fromValue": 0.13,
+                        "toValue": 0.74,
+                        "duration": 0.5,
+                        "beginTime": 0.5,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 1,
+                                "y": 0.01
+                            }
+                        }
+                    },
+                    {
+                        "property": "transform.scale.y",
+                        "fromValue": 0.07,
+                        "toValue": 0.4,
+                        "duration": 0.5,
+                        "beginTime": 0.5,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 1,
+                                "y": 0.01
+                            }
+                        }
+                    }
+
+                ]
+            },
+            {
+                "target": "m0",
+                "items": [
+                    {
+                        "property": "position.x",
+                        "fromValue": 119,
+                        "toValue": 629,
+                        "duration": 1,
+                        "beginTime": 0,
+                        "timingFunction": {
+                            "in": {
+                                "x": 0.667,
+                                "y": 1
+                            },
+                            "out": {
+                                "x": 0.333,
+                                "y": 0
+                            }
+                        }
+                    },
+                ]
+            },
+        ]
+    }
+    
+    
+    
+}
